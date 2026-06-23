@@ -1,0 +1,89 @@
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+    box-shadow: 5px 10px 10px -2px rgb(233, 9, 9);
+
+    span{
+        display: flex;
+        align-items: center;
+        img{
+            width: 20%;
+            margin-right: 5px;
+            border-radius: 10px;
+            
+        }
+        h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 25px;
+            color: rgb(212, 0, 0);
+           
+        }
+    }
+    nav{
+        a{
+            text-decoration: solid;
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            margin: 0 21px;
+            transition: all 300ms ease-in-out;
+            font-size: 30px;
+        }
+        a:hover{
+         color: rgb(248, 72, 72);
+         font-size: 40px;
+
+        }
+    }
+ button{
+        border: none;
+        padding: 15px 15px;
+        border-radius: 10px;
+        background: rgb(138, 138, 138);
+        color: rgb(0, 0, 0);
+        box-shadow: 10px 10px 10px -2px rgba(0,0,0,0.6);
+        cursor: pointer;    
+        text-align: center; 
+        
+    }
+   
+}
+div{
+    h1{
+        color: rgb(0, 0, 0);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+         text-decoration: underline;
+         font-size: 50px;
+         text-align: center;
+
+    }
+    p{
+        color: rgb(0, 0, 0);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+         text-decoration: double;
+         font-size: 20px;
+         text-align: left;
+
+    }
+    button{
+        color: rgb(0, 0, 0);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+         text-decoration-style: dotted;
+         font-size: 20px;
+         border-color: rgb(27, 26, 26);
+         box-shadow: 10px 10px 10px -5px rgb(0, 0, 0);
+         background-color: rgba(0, 0, 0, 0.418);
+        cursor: pointer;
+         
+    }
+}
+div{
+ .box{
+    img{
+     float: right;
+    }
+ }
+}
